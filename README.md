@@ -42,10 +42,20 @@ const tree = [
       A--->B
       B--->C
       A--->D
-      
-      
-      
 ```
 
 
-## 广度优先遍历 
+### 写出广度优先遍历
+```
+const bfs = (root) =>{
+    // write your code
+}
+```
+
+### 写出深度优先遍历
+```
+const bfs = (root) =>{
+    // write your code
+}
+```
+
