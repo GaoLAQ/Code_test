@@ -2,37 +2,42 @@
 
 给予data structure 
 ```
-const tree = [
+
+const tree = 
     {
         val:'a', 
-        children:[
-            {
-                val:'b', 
-                children:[
-                    val:'c',
-                    children:[]
-                ], 
-            },
-            {
-                val:'d', 
-                children:[], 
+        left:{
+            val:'b', 
+            left:{
+                val:'c'
+                left:{
+                    val:'f',
+                    left:{}, 
+                    right:{}
+                }, 
+                right：{
+                    val:'g',
+                    left:{},
+                    right:{}
+                }
             }
-        ], 
+            right:{
+                val:'e',
+                left:{}, 
+                right:{}
+            }
+        }, 
+        right:{
+            val:'d',
+            left:{
+                val:'h',
+                left:{}, 
+                right:{}
+            }, 
+            right:{}
+        }, 
     }, 
-    {
-        val:'e',
-        children:[
-            {
-                val:'f', 
-                children:[], 
-            },
-            {
-                val:'g', 
-                children:[], 
-            }
-        ]
-    }
-]
+
 ```
 
 要求：递归版
