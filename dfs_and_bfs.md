@@ -37,12 +37,13 @@ const tree = [
 ```mermaid
     graph TD; 
       Start--->A
-      Start--->E
-      E---> F
-      E--->G
       A--->B
       B--->C
       A--->D
+      Start--->E
+      E---> F
+      E--->G
+
 ```
 
 
