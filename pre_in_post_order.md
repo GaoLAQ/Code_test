@@ -54,38 +54,38 @@ const tree =
 ```
 
 要求：递归版
-## Pre-order 
+## 写出 Pre-order 
 ```
 const preorder = (root)=>{
   
 }
 ```
-## In-order 
+## 写出 In-order 
 ```
 const inorder = (root)=>{
 
 }
 ```
-## Post-order 
+## 写出 Post-order 
 ```
 const postorder = (root)=>{
     
 }
 ```
 要求：非递归版
-## Pre-order 
+## 写出 Pre-order 
 ```
 const preorder = (root)=>{
   
 }
 ```
-## In-order 
+## 写出 In-order 
 ```
 const inorder = (root)=>{
 
 }
 ```
-## Post-order 
+## 写出 Post-order 
 ```
 const postorder = (root)=>{
     
