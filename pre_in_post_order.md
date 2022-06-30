@@ -2,7 +2,6 @@
 
 给予data structure 
 ```
-
 const tree = 
     {
         val:'a', 
@@ -34,10 +33,24 @@ const tree =
                 left:{}, 
                 right:{}
             }, 
-            right:{}
+            right:{
+                val:'i',
+                left:{}, 
+                right:{}
+            }
         }, 
     }, 
-
+```
+``` mermaid
+      graph TD; 
+      a---> b
+      b---> c
+      b---> e
+      c---> f
+      c---> g
+      a---> d
+      d---> h
+      d---> i
 ```
 
 要求：递归版
