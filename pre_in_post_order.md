@@ -11,32 +11,32 @@ const tree =
                 val:'c'
                 left:{
                     val:'f',
-                    left:{}, 
-                    right:{}
+                    left: null, 
+                    right: null
                 }, 
                 right：{
                     val:'g',
-                    left:{},
-                    right:{}
+                    left: null,
+                    right: null
                 }
             }
             right:{
                 val:'e',
-                left:{}, 
-                right:{}
+                left: null, 
+                right: null
             }
         }, 
         right:{
             val:'d',
             left:{
                 val:'h',
-                left:{}, 
-                right:{}
+                left: null, 
+                right: null 
             }, 
             right:{
                 val:'i',
-                left:{}, 
-                right:{}
+                left: null, 
+                right:null 
             }
         }, 
     }, 
