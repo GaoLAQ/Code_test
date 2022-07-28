@@ -23,3 +23,18 @@ function whileloop(){
   }
 }
 ```
+
+## Please write down differences between break and continue 
+```javascript 
+while(i<3){
+  i++
+  if(i===2) break 
+}
+```
+
+```javascript 
+while(i<3){
+  i++
+  if(i===2) continue  
+}
+```
